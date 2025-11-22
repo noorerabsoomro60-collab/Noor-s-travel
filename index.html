@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Travel - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon">NT</div>
+                <div class="logo-text">
+                    <span class="logo-main">Noor Travel</span>
+                    <span class="logo-sub">Discover Your Journey</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="pakages.html">Packages</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="btn-login">Book Now</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Discover the World with Noor Travel</h1>
+                    <p class="hero-subtitle">Experience unforgettable journeys to the most breathtaking destinations around the globe. Your adventure of a lifetime starts here.</p>
+                    <div class="hero-buttons">
+                        <a href="destinations.html" class="btn btn-primary">Explore Destinations</a>
+                        <a href="packages.html" class="btn btn-secondary">View Packages</a>
+                    </div>
+                </div>
+                <div class="hero-search">
+                    <div class="search-card">
+                        <h3>Find Your Perfect Trip</h3>
+                        <form class="search-form">
+                            <div class="form-group">
+                                <label for="destination">Destination</label>
+                                <input type="text" id="destination" placeholder="Where do you want to go?">
+                            </div>
+                            <div class="form-group">
+                                <label for="travel-date">Travel Date</label>
+                                <input type="date" id="travel-date">
+                            </div>
+                            <div class="form-group">
+                                <label for="travelers">Travelers</label>
+                                <select id="travelers">
+                                    <option value="1">1 Traveler</option>
+                                    <option value="2">2 Travelers</option>
+                                    <option value="3">3 Travelers</option>
+                                    <option value="4">4 Travelers</option>
+                                    <option value="5+">5+ Travelers</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Search Trips</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Why Choose Noor Travel?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">✈️</div>
+                        <h3>Best Flight Deals</h3>
+                        <p>Access exclusive flight deals and premium airline partnerships for the most comfortable journey.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏨</div>
+                        <h3>Luxury Accommodations</h3>
+                        <p>Stay at handpicked luxury hotels and resorts that guarantee comfort and authentic experiences.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Global Destinations</h3>
+                        <p>Explore over 100 destinations worldwide with expertly crafted itineraries and local guides.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⭐</div>
+                        <h3>5-Star Service</h3>
+                        <p>Enjoy personalized service with 24/7 support and dedicated travel concierge throughout your trip.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Destinations -->
+        <section class="destinations-preview">
+            <div class="container">
+                <h2 class="section-title">Popular Destinations</h2>
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80')">
+                            <div class="destination-overlay">
+                                <span class="destination-price">From $1,299</span>
+                            </div>
+                        </div>
+                        <div class="destination-content">
+                            <h3>Bali, Indonesia</h3>
+                            <p>Experience the magical island of gods with pristine beaches, ancient temples, and vibrant culture.</p>
+                            <div class="destination-meta">
+                                <span class="rating">⭐ 4.8</span>
+                                <span class="duration">7 Days</span>
+                            </div>
+                            <a href="destinations.html" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80')">
+                            <div class="destination-overlay">
+                                <span class="destination-price">From $2,199</span>
+                            </div>
+                        </div>
+                        <div class="destination-content">
+                            <h3>Santorini, Greece</h3>
+                            <p>Discover the stunning white-washed buildings and breathtaking sunsets of this Greek paradise.</p>
+                            <div class="destination-meta">
+                                <span class="rating">⭐ 4.9</span>
+                                <span class="duration">5 Days</span>
+                            </div>
+                            <a href="destinations.html" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1540959733332-abcde3a2e614?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80')">
+                            <div class="destination-overlay">
+                                <span class="destination-price">From $1,899</span>
+                            </div>
+                        </div>
+                        <div class="destination-content">
+                            <h3>Kyoto, Japan</h3>
+                            <p>Immerse yourself in traditional Japanese culture with ancient temples and beautiful gardens.</p>
+                            <div class="destination-meta">
+                                <span class="rating">⭐ 4.7</span>
+                                <span class="duration">6 Days</span>
+                            </div>
+                            <a href="destinations.html" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-cta">
+                    <a href="destinations.html" class="btn btn-primary">View All Destinations</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Travelers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Our trip to Bali organized by Noor Travel was absolutely perfect. Every detail was taken care of, and we created memories that will last a lifetime."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SR</div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Bali Adventure</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The luxury Greek islands package exceeded all expectations. The hotels were incredible and the local guides made our experience truly authentic."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MR</div>
+                            <div class="author-info">
+                                <h4>Michael Roberts</h4>
+                                <span>Greek Islands Tour</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"From booking to return, everything was seamless. The attention to detail and personalized service made this our best vacation ever."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">EP</div>
+                            <div class="author-info">
+                                <h4>Emma Peterson</h4>
+                                <span>Japan Cultural Tour</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Get Travel Inspiration</h2>
+                    <p>Subscribe to our newsletter for exclusive deals, travel tips, and destination guides.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">NT</div>
+                        <div class="logo-text">
+                            <span class="logo-main">Noor Travel</span>
+                            <span class="logo-sub">Discover Your Journey</span>
+                        </div>
+                    </div>
+                    <p>Creating unforgettable travel experiences since 2010. We specialize in crafting personalized journeys to the world's most beautiful destinations.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="packages.html">Travel Packages</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Travel Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon"></span>
+                        <span>Jamshoro<br>TPC colony</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"></span>
+                            <span>03201347337</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"></span>
+                            <span>noorerabsoomro@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for travel inspiration and exclusive deals.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Noor Travel. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
